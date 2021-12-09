@@ -20,6 +20,7 @@ function Detail() {
         <strong>{movieDetail.title}</strong>
         <div>rating : {movieDetail.rating}</div>
         <div>{movieDetail.description_full}</div>
+        <div>{movieDetail.year}</div>
       </div>
     </>
   )
